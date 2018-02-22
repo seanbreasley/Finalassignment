@@ -1,0 +1,53 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background: white;
+  font-family: 'Muli', sans-serif;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+
+
+
+#contact:hover { background: #666; }
+#contact:active { background: #444; }
+
+#contactForm {
+  display: none;
+  z-index:1001;
+  padding-top:7%;
+  width: 40vw;
+  height: 40vh;
+  text-align: center;
+  background: #5FBAF7;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%)
+
+}
+
+input, textarea {
+  margin: 1em auto;
+
+
+  display: block;
+  width: 25em;
+  padding: .4em;
+}
+textarea { height: 80px; resize: none; }
+
+.formBtn {
+  width: 140px;
+  display: inline-block;
+
+  background: white;
+  color: #5FBAF7;
+  font-weight: 100;
+  font-size: 1.2em;
+  border: none;
+  height: 30px;
+}
